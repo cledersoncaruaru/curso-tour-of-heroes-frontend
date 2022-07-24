@@ -119,9 +119,10 @@
       }
     }
   },
-  "defaultProject": "curso-tour-of-heroes-frontend",
   "cli": {
-    "defaultCollection": "@angular-eslint/schematics",
-    "analytics": false
+    "analytics": false,
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
